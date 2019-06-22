@@ -1,0 +1,2 @@
+rootProject.name = 'netty'
+include 'Netty-Native-Comparison', 'Netty-HttpServer', 'Netty-Echo', 'Netty-WebSocket', 'Netty-Spdy', 'Netty-RPC'
