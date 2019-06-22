@@ -1,0 +1,14 @@
+syntax ="proto2";
+
+package com.dashuai.learning.websocket.protobuf;
+
+//optimize_for 加快解析的速度
+option optimize_for = SPEED;
+option java_package = "com.dashuai.learning.websocket.handler";
+option java_outer_classname="DataInfo";
+
+message Student{
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
